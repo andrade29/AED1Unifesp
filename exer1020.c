@@ -4,8 +4,8 @@ int main() {
     scanf("%d", &dias);
     anos = dias/365;
     dia_rest = dias%365;
-    meses = dias_rest/30;
-    dia_rest = dias_rest%30;
+    meses = dia_rest/30;
+    dia_rest = dia_rest%30;
 
     printf("%d ano ou anos\n", anos);
     printf("%d mês ou meses\n", meses);
